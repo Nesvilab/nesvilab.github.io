@@ -1,273 +1,353 @@
-
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <title>The Nesvizhskii Lab</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link href="css/flexslider.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/line-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all"/>
-        <!--[if gte IE 9]>
-        	<link rel="stylesheet" type="text/css" href="css/ie9.css" />
-		<![endif]-->
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
-        <script src="js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-    </head>
-    <body>
-    	<div class="loader">
-    		<div class="spinner">
-			  <div class="double-bounce1"></div>
-			  <div class="double-bounce2"></div>
-			</div>
-    	</div>
+<html lang="en">
 
-		<div class="nav-container">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-      <nav class="contained-bar top-bar">
-				<div class="container">
+    <!-- Title -->
+    <title>The News Paper - News &amp; Lifestyle Magazine Template</title>
 
-					<div class="contained-wrapper">
+    <!-- Favicon -->
+    <link rel="icon" href="img/core-img/favicon.ico">
 
-						<div class="row nav-menu">
-							<div class="col-md-2 col-sm-3 columns">
-						</div>
-            <div class="col-md-12 col-sm-9 columns">
-              <ul class="menu">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="news.html">News</a></li>
-    						<li><a href="team.html">Team</a></li>
-                <li><a href="courses.html">Courses</a></li>
-                <li><a href="publications.html">Publications</a></li>
-                <li><a href="software.html">Software</a></li>
-                <li><a href="facility.html">Facility</a></li>
-                <li><a href="contact.html">Contact</a></li>
-								</li>
-							</ul>
-						</div>
-						</div>
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
 
-						<div class="mobile-toggle">
-							<i class="icon icon_menu"></i>
-						</div>
+</head>
 
-					</div>
+<body>
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
 
-				</div>
-				<div class="bottom-border"></div>
-			</nav>
-		</div>
+        <!-- Top Header Area -->
+        <div class="top-header-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="top-header-content d-flex align-items-center justify-content-between">
+                            <!-- Logo -->
+                            <div class="logo">
+                                <a href="index.html"><img src="img/core-img/logo2.png" alt=""></a>
+                            </div>
 
-		<div class="main-container">
-			<header class="fullscreen-element no-pad centered-text">
-				<div class="background-image-holder parallax-background overlay">
-					<img class="background-image" alt="Background Image" src="img/aa-01.jpg">
-				</div>
+                            <!-- Login Search Area -->
+                            <div class="login-search-area d-flex align-items-center">
+                                <!-- Search Form -->
+                                <div class="search-form">
+                                    <form action="#" method="post">
+                                        <input type="search" name="search" class="form-control" placeholder="Search">
+                                        <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-				<div class="container align-vertical">
-					<div class="row">
-						<div class="col-md-12 text-center">
-							<!--<span class="text-white alt-font">Alexey I. Nesvizhskii</span>-->
-							<h1 class="text-white">Proteomics & Integrative Bioinformatics Lab</h1>
-							<p class="lead text-white">Advancing Proteomics, one spectrum at a time</p>
-							<!--<a target="_blank" href="http://www.mediumra.re/pivot/variant/builder.html" class="btn btn-primary btn-white">Customize Pivot</a>
-							<a href="#" class="btn btn-primary btn-filled">Purchase Pivot</a>-->
-						</div>
-					</div>
-				</div>
-			</header>
+        <!-- Navbar Area -->
+        <div class="newspaper-main-menu" id="stickyMenu">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Menu -->
+                    <nav class="classy-navbar justify-content-between" id="newspaperNav">
 
-			<section class="feature-selector">
-				<!--<div class="container">
-					<div class="row">
-						<ul class="selector-tabs clearfix">
-							<li class="clearfix text-primary col-md-3 col-sm-6 active">
-									<i class="icon icon-target"></i>
-									<span>Targeted Branding</span>
-							</li>
+                        <!-- Logo -->
+                        <div class="logo">
+                            <a href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                        </div>
 
-							<li class="clearfix text-primary col-md-3 col-sm-6">
-									<i class="icon icon-map-pin"></i>
-									<span>Geolocating Features</span>
-							</li>
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
 
-							<li class="clearfix text-primary col-md-3 col-sm-6">
-									<i class="icon icon-strategy"></i>
-									<span>Marketing Strategy</span>
-							</li>
+                        <!-- Menu -->
+                        <div class="classy-menu">
 
-							<li class="clearfix text-primary col-md-3 col-sm-6">
-									<i class="icon icon-anchor"></i>
-									<span>On Page Navigation</span>
-							</li>
-						</ul>
-					</div>
-				</div>-->
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
 
-				<div class="container">
-					<ul class="selector-content">
-						<li class="clearfix active">
-							<div class="row">
-								<div class="col-sm-12 text-center">
-									<h1>About the laboratory</h1>
-								</div>
-							</div>
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                	<li class="active"><a href="index.html">HOME</a></li>
+                                    <li><a href="index.html">ABOUT</a></li>
+                                    <li><a href="index.html">NEWS</a></li>
+                                    <li><a href="index.html">TEAM</a></li>
+                                    <li><a href="index.html">COURSES</a></li>
+                                    <li><a href="index.html">PUBLICATIONS</a></li>
+                                    <li><a href="index.html">SOFTWARE</a></li>
+                                    <li><a href="index.html">FACILITY</a></li>
+                                    <li><a href="index.html">CONTACT</a></li>
+                                </ul>
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
 
-							<div class="row">
-								<div class="col-sm-6">
-									<p class="lead">
-										Our research interests are in the fields of proteomics and integrative bioinformatics.
-                    On the bioinformatics side, we are focusing on the development of computational methods
-                    and tools for processing and extracting biological information from complex biological
-                    datasets. This includes computational and statistical methods for mass spectrometry-based
-                    proteomics, interactome analysis using affinity purification mass spectrometry (AP-MS) technology,
-                    proteogenomics, metabolomics, global analysis of RNA-Seq transcriptome and proteome profiles,
-                    and multi-omics data integration (RNA-Seq, proteomics, genomics, etc.) for reconstruction of
-                    pathways deregulated in cancer. Our lab has developed and maintains many computational resources
-                    widely used by the proteomics community worldwide.
-									</p>
-								</div>
+<!-- ##### Hero Area Start ##### -->
+    <div class="hero-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-16">
+                    <!-- Breaking News Widget -->
+                    <div class="breaking-news-area d-flex align-items-center">
+                        <div class="news-title">
+                            <p style="color:yellow;">Breaking News</p>
+                        </div>
+                        <div id="breakingNewsTicker" class="ticker">
+                            <ul>
+                                <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Welcome to Colorlib Family. Welcome to Colorlib Family.</a></li>
+                                <li><a href="#">Nam eu metus sitsit amet, consec!</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Hero Area End ##### -->
 
-								<div class="col-sm-6">
-									<p class="lead">
-                    In 2015 our lab has expanded to include the Proteomics Resource Facility (PRF) at the University of
-                    Michigan. Directed by Dr. Nesvizhskii, PRF aims to provide state-of-the-art instrumentation,
-                    technical expertise and bioinformatics support to the University of Michigan research community.
-                    We are actively collaborating with many biologists and translational scientists, at the
-                    University of Michigan and internationally, on a wide range of projects that involve proteomics
-                    technology. Taking advantage of our strengths in bioinformatics, we are also developing new and
-                    improved proteomics methods such as Data Independent Acquisition (DIA) mass spectrometry for
-                    improved label-free protein quantification.
-									</p>
-								</div>
-							</div>
-						</li>
+    <!-- ##### Featured Post Area Start ##### -->
+    <div class="featured-post-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-8">
+                    <div class="row">
 
-						<li class="clearfix">
-							<div class="row">
-								<div class="col-sm-12 text-center">
-									<h1>Many appealing ways to present information</h1>
-								</div>
-							</div>
+                        <!-- Single Featured Post -->
+                        <div class="col-12 col-lg-7">
+                            <div class="single-blog-post featured-post">
+                                <div class="post-thumb">
+                                    <a href="#"><img src="img/bg-img/FragPipe.png" alt=""></a>
+                                </div>
+                                <div class="post-data">
+                                    <a href="#" class="post-catagory">FragPipe</a>
+                                    <a href="#" class="post-title">
+                                        <h6>FragPipe: A simple cross-platform UI for running MSFragger proteomic search engine</h6>
+                                    </a>
+                                    <div class="post-meta">
+                                        <p class="post-author">Matained By <a href="#">Dmitriy Avtonomov</a></p>
+                                        <p class="post-excerp">This is a very basic Java GUI wrapper for MSFragger - ultrafast proteomic search engine.
+It will help you launch MSFragger for Open and Closed searches and can also run post-processing of results with Peptide/Protein Prophets as well as generate tabular summary results using Philosopher. </p>
+                                        <!-- Post Like & Post Comment -->
+                                        <div class="d-flex align-items-center">
+                                            <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
+                                            <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-							<div class="row">
-								<div class="col-sm-6">
-									<p class="lead">
-										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
-									</p>
-								</div>
+                        <div class="col-12 col-lg-5">
+                            <!-- Single Featured Post -->
+                            <div class="single-blog-post featured-post-2">
+                                <div class="post-thumb">
+                                    <a href="#"><img src="img/bg-img/17.jpg" alt=""></a>
+                                </div>
+                                <div class="post-data">
+                                    <a href="#" class="post-catagory">philosopher</a>
+                                    <div class="post-meta">
+                                        <a href="#" class="post-title">
+                                            <h6>A complete toolkit for shotgun proteomics data analysis...</h6>
+                                        </a>
+                                        <!-- Post Like & Post Comment -->
+                                        <div class="d-flex align-items-center">
+                                            <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
+                                            <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-								<div class="col-sm-6">
-									<p class="lead">
-										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
-									</p>
-								</div>
-							</div>
-						</li>
+                            <!-- Single Featured Post -->
+                            <div class="single-blog-post featured-post-2">
+                                <div class="post-thumb">
+                                    <a href="#"><img src="img/bg-img/TMT-Integrator.png" alt=""></a>
+                                </div>
+                                <div class="post-data">
+                                    <a href="#" class="post-catagory">TMT-Integrator</a>
+                                    <div class="post-meta">
+                                        <a href="#" class="post-title">
+                                            <h6>A tool integrates channel abundances from multiple TMT samples and exports a general report for downstream analysis...</h6>
+                                        </a>
+                                        <!-- Post Like & Post Comment -->
+                                        <div class="d-flex align-items-center">
+                                            <a href="#" class="post-like"><img src="img/core-img/like.png" alt=""> <span>392</span></a>
+                                            <a href="#" class="post-comment"><img src="img/core-img/chat.png" alt=""> <span>10</span></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-						<li class="clearfix">
-							<div class="row">
-								<div class="col-sm-12 text-center">
-									<h1>Several appealing ways to present information</h1>
-								</div>
-							</div>
+                <div class="col-12 col-md-6 col-lg-4">                            
+                    <div class="section-heading">
+                        <h6>What's New</h6>
+                    </div>
+                    
+                    <div class="single-blog-post small-featured-post d-flex">
+                        <div class="post-data">
+                            <a href="#" class="post-catagory">Software Update</a>
+                            <div class="post-meta">
+                                <a href="#" class="post-title">
+                                    <h6>A new version of FragPipe has been released at...</h6>
+                                </a>
+                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
+                            </div>
+                        </div>
+                    </div>
 
-							<div class="row">
-								<div class="col-sm-6">
-									<p class="lead">
-										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
-									</p>
-								</div>
+                    <!-- Single Featured Post -->
+                    <div class="single-blog-post small-featured-post d-flex">
+                        <div class="post-data">
+                            <a href="#" class="post-catagory">Conference Presentation</a>
+                            <div class="post-meta">
+                                <a href="#" class="post-title">
+                                    <h6>We are going to present our newly developed/improved tools in the upcoming ASMS conference.</h6>
+                                </a>
+                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
+                            </div>
+                        </div>
+                    </div>
 
-								<div class="col-sm-6">
-									<p class="lead">
-										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
-									</p>
-								</div>
-							</div>
-						</li>
+                    <!-- Single Featured Post -->
+                    <div class="single-blog-post small-featured-post d-flex">
+                        <div class="post-data">
+                            <a href="#" class="post-catagory">New Tools</a>
+                            <div class="post-meta">
+                                <a href="#" class="post-title">
+                                    <h6>Pellentesque mattis arcu massa, nec fringilla turpis eleifend id.</h6>
+                                </a>
+                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
+                            </div>
+                        </div>
+                    </div>
+					
+                    <div>
+                    </div>
+                    
+                    <!-- Single Featured Post -->
+                    <div class="single-blog-post small-featured-post d-flex">
+                        <div class="post-data">
+                            <a href="#" class="post-catagory">Software Updates</a>
+                            <div class="post-meta">
+                                <a href="#" class="post-title">
+                                    <h6>Augue semper congue sit amet ac sapien. Fusce consequat.</h6>
+                                </a>
+                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
+                            </div>
+                        </div>
+                    </div>
 
-						<li class="clearfix">
-							<div class="row">
-								<div class="col-sm-12 text-center">
-									<h1>Numerous appealing ways to present information</h1>
-								</div>
-							</div>
+                    <!-- Single Featured Post -->
+                    <div class="single-blog-post small-featured-post d-flex">
+                        <div class="post-data">
+                            <a href="#" class="post-catagory">Publications</a>
+                            <div class="post-meta">
+                                <a href="#" class="post-title">
+                                    <h6>Pellentesque mattis arcu massa, nec fringilla turpis eleifend id.</h6>
+                                </a>
+                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
+                            </div>
+                        </div>
+                    </div>
 
-							<div class="row">
-								<div class="col-sm-6">
-									<p class="lead">
-										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
-									</p>
-								</div>
+                    <!-- Single Featured Post -->
+                    <div class="single-blog-post small-featured-post d-flex">
+                        <div class="post-data">
+                            <a href="#" class="post-catagory">Software Updates</a>
+                            <div class="post-meta">
+                                <a href="#" class="post-title">
+                                    <h6>Augue semper congue sit amet ac sapien. Fusce consequat.</h6>
+                                </a>
+                                <p class="post-date"><span>7:00 AM</span> | <span>April 14</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Featured Post Area End ##### -->
 
-								<div class="col-sm-6">
-									<p class="lead">
-										Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem.
-									</p>
-								</div>
-							</div>
-						</li>
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area">
 
+        <!-- Main Footer Area -->
+        <div class="main-footer-area">
+            <div class="container">
+                <div class="row">
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="footer-widget-area mt-80">
+                            <!-- Footer Logo -->
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="img/core-img/logo1.png" alt=""></a>
+                            </div>                            
+                        </div>
+                    </div>
+                   
 
-					</ul>
-				</div>
-			</section>
-		</div>
+                    <!-- Footer Widget Area -->
+                    <div class="col-12 col-sm-4 col-lg-2">
+                        <div class="footer-widget-area mt-80">
+                            <!-- List -->
+                            <ul class="list">
+                                <li><a href="mailto:nesvi@umich.edu">nesvi@umich.edu</a></li>
+                                <li><a href="tel:+1 734.764.3516">+1 734.764.3516</a></li>
+                                <li><a href="https://nesvilab.github.io/www-nesvilab/index.html">https://nesvilab.github.io/www-nesvilab/index.html</a></li>
+                            </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="footer-container">
-      <footer class="short bg-secondary-1">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-10">
-							<p class="sub">Department of Pathology. University of Michigan Medical School.</p>
-							<ul>
-								<li>nesvi@umich.edu<br>+1 734.764.3516<br></li>
-								<li>1301 Catherine<br>
-								4237 Medical Science I<br>
-								Ann Arbor, MI 48109</li>
-							</ul>
-						</div>
+        <!-- Bottom Footer Area -->
+        <div class="bottom-footer-area">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <!-- Copywrite -->
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ##### Footer Area Start ##### -->
 
-						<div class="col-sm-2 text-right">
-							<ul class="social-icons">
-								<li>
-									<a href="https://twitter.com/nesvilab">
-										<i class="icon social_twitter"></i>
-									</a>
-								</li>
-							</ul>
-						</div>
+    <!-- ##### All Javascript Files ##### -->
+    <!-- jQuery-2.2.4 js -->
+    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/bootstrap/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <!-- All Plugins js -->
+    <script src="js/plugins/plugins.js"></script>
+    <!-- Active js -->
+    <script src="js/active.js"></script>
+</body>
 
-					</div>
-				</div>
-			</footer>
-		</div>
-
-		<script src="https://www.youtube.com/iframe_api"></script>
-		<script src="js/jquery.min.js"></script>
-        <script src="js/jquery.plugin.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.flexslider-min.js"></script>
-        <script src="js/smooth-scroll.min.js"></script>
-        <script src="js/skrollr.min.js"></script>
-        <script src="js/spectragram.min.js"></script>
-        <script src="js/scrollReveal.min.js"></script>
-        <script src="js/isotope.min.js"></script>
-        <script src="js/twitterFetcher_v10_min.js"></script>
-        <script src="js/lightbox.min.js"></script>
-        <script src="js/jquery.countdown.min.js"></script>
-        <script src="js/scripts.js"></script>
-    </body>
 </html>
