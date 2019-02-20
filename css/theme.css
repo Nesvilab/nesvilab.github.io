@@ -1744,6 +1744,11 @@ img.phone-portrait {
 .team-1-member img {
   display: inline-block;
   margin-bottom: 16px;
+  position: relative;
+  height:  200px;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
 }
 .team-1-member h5 {
   margin-bottom: 8px;
