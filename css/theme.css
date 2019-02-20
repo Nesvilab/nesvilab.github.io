@@ -1762,6 +1762,9 @@ img.phone-portrait {
 .team-1-member {
   text-align: center;
   margin-top: 48px;
+  width: 200px;
+  height: 400px;
+  overflow: hidden;
 }
 .team-1-member img {
   display: inline-block;
