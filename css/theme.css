@@ -1745,7 +1745,7 @@ img.phone-portrait {
   display: inline-block;
   margin-bottom: 16px;
   position: relative;
-  height:  300px;
+  width:  400px;
   background-position: 50% 50%;
   background-repeat:   no-repeat;
   background-size:     cover;
