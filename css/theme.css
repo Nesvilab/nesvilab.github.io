@@ -1737,6 +1737,28 @@ img.phone-portrait {
   margin-bottom: 16px;
   display: inline-block;
 }
+.team-1-leader {
+  text-align: center;
+  margin-top: 48px;
+}
+.team-1-leader img {
+  display: inline-block;
+  margin-bottom: 16px;
+  position: relative;
+  height:  300px;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+}
+.team-1-leader h5 {
+  margin-bottom: 8px;
+}
+.team-1-leader .social-icons {
+  margin-top: 8px;
+}
+.team-1-leader .social-icons li a {
+  font-size: 18px;
+}
 .team-1-member {
   text-align: center;
   margin-top: 48px;
