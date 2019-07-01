@@ -1750,6 +1750,19 @@ img.phone-portrait {
   background-repeat:   no-repeat;
   background-size:     cover;
 }
+.newsimage {
+  text-align: center;
+  margin-top: 48px;
+}
+.newsimage img {
+  display: inline-block;
+  margin-bottom: 16px;
+  position: relative;
+  height:  500px;
+  background-position: 50% 50%;
+  background-repeat:   no-repeat;
+  background-size:     cover;
+}
 .team-1-leader h5 {
   margin-bottom: 8px;
 }
