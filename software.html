@@ -91,7 +91,7 @@
           <p class="lead">
             Visit our <a href="https://github.com/Nesvilab">GitHub</a>
             page to find out more about our current projects. Below you
-            can find a list our latest software.
+            can find a list of our latest software.
           </p>
         </div>
       </div>
@@ -102,19 +102,13 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-            <h1><a href="https://msfragger.nesvilab.org/"><em>MSFragger</em>: ultrafast and comprehensive peptide identification in mass spectrometry-based proteomics</a></h1>
-            <img alt="MSFragger" class="background-image" src="img/msfragger-logo.png ">
-            <p class="lead">
-              MSFragger is an ultrafast database search tool that uses a fragment ion indexing method to rapidly perform spectra similarity comparisons.
-              On a typical quad-core workstation, MSFragger is able to perform open searching (500 Da precursor mass window tolerance) in under 10 minutes
-              for a single LC-MS/MS run. It is implemented in the Java programming language and is available as a standalone JAR.s
-            </p>
-            <p>
-              Kong, A. T.; Leprevost, F. V.; Avtonomov, D. M.; Mellacheruvu, D.; Nesvizhskii, A. I. MSFragger: Ultrafast and Comprehensive Peptide Identification in Mass Spectrometry-Based Proteomics. Nat. Methods 2017, 14 (5), 513–520.
-            </p>
+            <h1><a href="https://fragpipe.nesvilab.org/"><em>FragPipe</em>: a complete proteomics pipeline with the MSFragger search engine at heart</a></h1>
+            <img alt="FragPipe" class="background-image" src="img/fragpipe-01.png ">
             <br>
-            <i class="icon_cloud-download_alt"></i><span class="alt-font"><a href="https://msfragger.nesvilab.org/">MSFragger website</a></span><br>
-            <i class="icon_cloud-download_alt"></i><span class="alt-font"><a href="http://fragpipe.nesvilab.org/">Download via FragPipe</a></span><br>
+            <br>
+            <p class="lead">
+              FragPipe is a GUI for a suite of computational tools enabling comprehensive analysis of proteomics data. It is powered by MSFragger, and includes the Philosopher toolkit for post-processing of MSFragger search results, FDR filtering, label-based quantification, and multi-experiment report generation. Crystal-C and PTM-Shepherd are included to aid interpretation of open search results. Also included in FragPipe are TMT-Integrator for TMT/iTRAQ isobaric labeling-based quantification, IonQuant for label-free quantification with match-between-run (MBR) functionality, SpectraST and EasyPQP spectral library building modules, and DIA-Umpire SE module for direct analysis of data independent acquisition (DIA) data.
+            </p>
           </div>
         </div>
       </div>
@@ -123,32 +117,64 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-            <h1><a href="http://philosopher.nesvilab.org/"><em>Philosopher</em>: A complete toolkit for shotgun proteomics data analysis</a></h1>
+            <h1><a href="https://msfragger.nesvilab.org/"><em>MSFragger</em>: ultrafast and comprehensive peptide identification in mass spectrometry-based proteomics</a></h1>
+            <img alt="MSFragger" class="background-image" src="img/msfragger-logo.png ">
+            <br>
             <p class="lead">
-              Philosopher provides easy access to third-party tools and custom algorithms allowing users to develop proteomics analysis, from
-              Peptide Spectrum Matching to annotated protein reports. Philosopher is also tuned for Open Search analysis, providing a modified
-              version of the prophets for peptide validation and protein inference. To this date, Philosopher is the only proteomics toolkit
-              that allows you to process and analyze close and open search results.
+              MSFragger is an ultrafast database search tool that uses a fragment ion indexing method to rapidly perform spectra similarity comparisons.
+              On a typical quad-core workstation, MSFragger is able to perform open searching (500 Da precursor mass window tolerance) in under 10 minutes
+              for a single LC-MS/MS run. It is implemented in the Java programming language and is available as a standalone JAR.
             </p>
-            <i class="icon_cloud-download_alt"></i><span class="alt-font"><a href="http://philosopher.nesvilab.org/">Philosopher website</a></span><br>
+            <p>
+              Kong, A. T.; Leprevost, F. V.; Avtonomov, D. M.; Mellacheruvu, D.; Nesvizhskii, A. I. MSFragger: Ultrafast and Comprehensive Peptide Identification in Mass Spectrometry-Based Proteomics. Nat. Methods 2017, 14 (5), 513–520.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blog-snippet-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+            <h1><a href="http://philosopher.nesvilab.org/"><em>Philosopher</em>: a complete toolkit for shotgun proteomics data analysis</a></h1>
+            <img alt="Philosopher" class="background-image" src="img/philosopher.png">
+            <br>
+            <br>
+            <p class="lead">
+              Philosopher is fast, easy-to-use, scalable, and versatile data analysis software for mass spectrometry-based proteomics. Philosopher is dependency-free and can analyze both traditional database searches and open searches for post-translational modification (PTM) discovery.
+            </p>
+            <p>
+              Leprevost, F. V.; Haynes, S. E.; Avtonomov, D. M.; Chang, H. Y.; Shanmugam, A. K.; Mellacheruvu, D.; Kong, A. T.; Nesvizhskii, A. I. Philosopher: a versatile toolkit for shotgun proteomics data analysis. Nat. Methods 2020, 1-2.
+            </p>
           </div>
         </div>
       </div>
     </div>
   </section>
+    <div class="blog-snippet-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
+            <h1><a href="https://ptmshepherd.nesvilab.org/"><em>PTMShepherd</em>: a tool for summarizing open search results</a></h1>
+            <p class="lead">
+              PTM-Shepherd automates characterization of PTM profiles detected in open searches based on attributes such as amino acid localization, fragmentation spectra similarity, retention time shifts, and relative modification rates. PTM-Shepherd can also perform multi-experiment comparisons for studying changes in modification profiles, e.g. in data generated in different laboratories or under different conditions.
+            </p>
+            <p>
+              Geiszler, D. J., Kong, A. T., Avtonomov, D. M., Yu, F., Leprevost, F. V., & Nesvizhskii, A. I. PTM-Shepherd: analysis and summarization of post-translational and chemical modifications from open search results. bioRxiv 2020.07.08.192583.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   <section class="blog-list-3 bg-white">
     <div class="blog-snippet-3">
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-            <h1><a href="http://tmt-integrator.nesvilab.org"><em>TMT-Integrator</em>: A tool integrates channel abundances from multiple TMT samples and exports a general report for downstream analysis</a></h1>
+            <h1><a href="http://tmt-integrator.nesvilab.org"><em>TMT-Integrator</em>: a tool for integrating channel abundances from multiple TMT samples</a></h1>
             <p class="lead">
-              The main purpose of TMT-Integrator is to extract and combine channel abundances from multiple TMT samples. It takes psm tables
-              generated by Philosphor as input files and exports a general report in which columns are the sample names and rows are the abundances
-              in a specified level. TMT-Integrator currently provides four levels in the output results, including gene, protein, peptide,
-              and phosphor site levels.
+              TMT-Integrator extracts and combines channel abundances from multiple TMT or iTRAQ-labeled samples. It takes PSM tables generated by Philosphor as input, and generates quantification reports at the user-specified levels. TMT-Integrator currently provides four quantification options: gene, protein, peptide, and modified site levels. TMT-Integrator is included in FragPipe for complete analyses of isobaric labeling experiments.
             </p>
-            <i class="icon_cloud-download_alt"></i><span class="alt-font"><a href="http://tmt-integrator.nesvilab.org">TMT-Integrator Website</a></span><br>
           </div>
         </div>
       </div>
@@ -157,7 +183,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-            <h1><a href="https://pubs.acs.org/doi/abs/10.1021/acs.jproteome.6b00021"><em>BatMass</em>: a Java Software Platform for LC-MS Data Visualization in Proteomics and Metabolomics</a></h1>
+            <h1><a href="http://batmass.org/"><em>BatMass</em>: a Java Software Platform for LC-MS Data Visualization in Proteomics and Metabolomics</a></h1>
             <img alt="BatMass" class="background-image" src="img/batmass-logo-300.png ">
             <p class="lead">
               BatMass is a mass spectrometry data visualization tool. It was created to provide an extensible platform, providing basic functionality,
@@ -166,8 +192,6 @@
             <p>
               Avtonomov, D. M.; Raskind, A.; Nesvizhskii, A. I. BatMass: A Java Software Platform for LC-MS Data Visualization in Proteomics and Metabolomics. J. Proteome Res. 2016, 15 (8), 2500–2509.
             </p>
-            <br>
-            <i class="icon_cloud-download_alt"></i><span class="alt-font"><a href="http://batmass.org/">BatMass Website</a></span><br>
           </div>
         </div>
       </div>
@@ -178,7 +202,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-            <h1><a href="https://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.3255.html"><em>DIA-Umpire</em>: comprehensive computational framework for data independent acquisition proteomics</a></h1>
+            <h1><a href="https://diaumpire.nesvilab.org/"><em>DIA-Umpire</em>: comprehensive computational framework for data independent acquisition proteomics</a></h1>
             <img alt="DIA-Umpire" class="background-image" src="img/dia_umpire.png ">
             <p class="lead">
               DIA-Umpire is an open source Java program for computational analysis of data independent acquisition (DIA) mass spectrometry-based proteomics data.
@@ -188,8 +212,6 @@
             <p>
               Tsou, C. C.; Avtonomov, D.; Larsen, B.; Tucholska, M.; Choi, H.; Gingras, A. C.; Nesvizhskii, A. I. DIA-Umpire: Comprehensive Computational Framework for Data-Independent Acquisition Proteomics. Nat. Methods 2015, 12 (3), 258–264.
             </p>
-            <br>
-            <i class="icon_cloud-download_alt"></i><span class="alt-font"><a href="https://github.com/Nesvilab/DIA-Umpire">DIA-Umpire Website</a></span><br>
           </div>
         </div>
       </div>
@@ -198,7 +220,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-            <h1><a href="https://linkinghub.elsevier.com/retrieve/pii/S1874-3919(15)30130-5"><em>mapDIA</em>: Preprocessing and statistical analysis of quantitative proteomics data from data independent acquisition mass spectrometry</a></h1>
+            <h1><a href="http://mapdia.sourceforge.net/"><em>mapDIA</em>: preprocessing and statistical analysis of quantitative proteomics data from data independent acquisition mass spectrometry</a></h1>
             <img alt="mapDIA" class="background-image" src="img/mapDIA.png ">
             <p class="lead">
               mapDIA is software for statistical analysis of differential expression using MS/MS fragment-level quantitative data from data independent acquisition
@@ -208,8 +230,6 @@
             <p>
               Teo, G.; Kim, S.; Tsou, C. C.; Collins, B.; Gingras, A. C.; Nesvizhskii, A. I.; Choi, H. MapDIA: Preprocessing and Statistical Analysis of Quantitative Proteomics Data from Data Independent Acquisition Mass Spectrometry. J Proteomics 2015, 129, 108–120.
             </p>
-            <br>
-            <i class="icon_cloud-download_alt"></i><span class="alt-font"><a href="http://mapdia.sourceforge.net/">mapDIA Website</a></span><br>
           </div>
         </div>
       </div>
@@ -220,7 +240,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-            <h1><a href="https://www.nature.com/nmeth/journal/vaop/ncurrent/full/nmeth.2557.html">The <em>CRAPome</em>: a contaminant repository for affinity purification - mass spectrometry data</a></h1>
+            <h1><a href="https://www.crapome.org/">The <em>CRAPome</em>: a contaminant repository for affinity purification - mass spectrometry data</a></h1>
             <img alt="CRAPome" class="background-image" src="img/crapome.png ">
             <p class="lead">
               Contaminant Repository for Affinity Purification (CRAPome) is a database of annotated negative controls contributed by the proteomics research community.
@@ -231,8 +251,6 @@
             <p>
               Mellacheruvu, D.; Wright, Z.; Couzens, A. L.; Lambert, J. P.; St-Denis, N. A.; Li, T.; Miteva, Y. V.; Hauri, S.; Sardiu, M. E.; Low, T. Y.; et al. The CRAPome: A Contaminant Repository for Affinity Purification-Mass Spectrometry Data. Nat. Methods 2013, 10 (8), 730–736.
             </p>
-            <br>
-            <i class="icon_cloud-download_alt"></i><span class="alt-font"><a href="https://www.crapome.org/">CRAPome home</a></span><br>
           </div>
         </div>
       </div>
@@ -304,7 +322,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-            <h1><a href="https://onlinelibrary.wiley.com/doi/10.1002/pmic.201000650/abstract"><em>Abacus</em>: A computational tool for extracting and pre-processing spectral count data for label-free quantitative proteomic analysis</a></h1>
+            <h1><a href="https://onlinelibrary.wiley.com/doi/10.1002/pmic.201000650/abstract"><em>Abacus</em>: a computational tool for extracting and pre-processing spectral count data for label-free quantitative proteomic analysis</a></h1>
             <p class="lead">
               ABACUS is a computational tool for extracting label-free quantitative information (spectral counts) from MS/MS data sets. It aggregates data
               from multiple experiments, adjusts spectral counts to accurately account for peptides shared across multiple proteins, and performs common
@@ -324,7 +342,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-            <h1><a href="https://www.sciencedirect.com/science/article/pii/S1874391915300907"><em>QPROT</em>: Statistical method for testing differential expression using protein-level intensity data in label-free quantitative proteomics</a></h1>
+            <h1><a href="https://www.sciencedirect.com/science/article/pii/S1874391915300907"><em>QPROT</em>: statistical method for testing differential expression using protein-level intensity data in label-free quantitative proteomics</a></h1>
             <p class="lead">
               QPROT is a software for differential protein expression using MS1 and MS/MS-level continuous quantitative data. Features a hierarchical
               model with predictive recursive algorithm. Includes percentile normalization and multiple threading for fast computing.
@@ -341,7 +359,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-            <h1><a href="http://www.mcponline.org/content/7/12/2373.long"><em>QSPEC</em>: Significance analysis of spectral count data in label-free shotgun proteomics.</a></h1>
+            <h1><a href="http://www.mcponline.org/content/7/12/2373.long"><em>QSPEC</em>: significance analysis of spectral count data in label-free shotgun proteomics.</a></h1>
             <p class="lead">
               Software for the analysis of differential protein expression using label-free spectral count data. The hierarchical model of QSPEC pools
               statistical information for mean and variance estimates across all proteins in the presence of limited number of replicate data. In a
@@ -360,7 +378,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6 col-md-offset-3 col-sm-8 col-sm-offset-2">
-            <h1><a href="http://msb.embopress.org/content/6/1/385"><em>NestedCluster</em>: Analysis of Protein Complexes via Model-based Biclustering of Label-free Quantitative AP-MS Data</a></h1>
+            <h1><a href="http://msb.embopress.org/content/6/1/385"><em>NestedCluster</em>: analysis of Protein Complexes via Model-based Biclustering of Label-free Quantitative AP-MS Data</a></h1>
             <p class="lead">
               A biclustering method for constructing protein complexes using (filtered) high-confidence interaction data from label-free quantitative AP-MS
               experiment. The method forms bait clusters based on the similarity of quantitative interaction profiles as anchors of protein complexes, and
